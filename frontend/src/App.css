@@ -1,0 +1,71 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+h2 {
+  color: #333;
+  font-weight: bold;
+}
+
+textarea.input-field {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button.submit-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.submit-button:hover {
+  background-color: #003d80;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.dropdown-container {
+  margin-top: 20px;
+}
+
+h4 {
+  color: #0056b3;
+}
+
+.dropdown {
+  margin-top: 10px;
+}
+
+.response-container {
+  margin-top: 20px;
+  background: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.response-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.response-container li {
+  margin-bottom: 10px;
+}
